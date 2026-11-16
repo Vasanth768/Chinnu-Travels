@@ -125,7 +125,16 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <span className="text-gray-400">
-              Designed with care by <span className="text-[#D6AD60] font-semibold">AVX Software</span>
+              Designed with care by{' '}
+              <a
+                href={TRAVEL_CONFIG.portfolioUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#D6AD60] font-semibold hover:text-[#ECC880] hover:underline transition-colors inline-flex items-center gap-1"
+                title="Vasanthakumar Portfolio"
+              >
+                <span>AVX Software</span>
+              </a>
             </span>
 
             {/* Back to top button */}

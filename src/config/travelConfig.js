@@ -19,6 +19,7 @@ export const TRAVEL_CONFIG = {
   phoneDisplay: "+91 98765 43210",
   altPhone: "+91 98765 43211",
   email: "chinnutravels.cbe@gmail.com",
+  portfolioUrl: "https://vasanthakumarportfolio.netlify.app/",
 
   // Location & Address
   location: {
